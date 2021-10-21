@@ -61,4 +61,3 @@ def delete(lname):
         return make_response("{lname} successfully deleted".format(lname=lname), 200)
     else:
         abort(404, "Person with last name {lname} not found".format(lname=lname))
-
